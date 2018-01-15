@@ -1,0 +1,23 @@
+@import 'variables';
+
+.corner-tag{
+    position:absolute;
+    left:0;
+    top:0;
+    border-top-left-radius: .4rem;
+    overflow:hidden;
+}
+.corner-tag > div{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 4rem 4rem 0 0;
+    border-color: $color-callout-purple transparent transparent transparent;
+}
+.corner-tag > svg{
+    position:absolute;
+    top:5px;
+    left:5px;
+    height:1.5rem;
+    width:1.5rem;
+}

@@ -1,0 +1,18 @@
+@import 'variables';
+@import 'placeholders';
+
+*{
+    box-sizing:border-box;
+}
+
+html,body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:10px;
+    color: $color-font-standard;
+    font-weight:300;
+}
+
+@import 'buttonlink';
+@import 'carrierCard';
+@import 'carrierCardList'; 
+@import 'cornertag';

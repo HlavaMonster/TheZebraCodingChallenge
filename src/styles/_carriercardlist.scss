@@ -1,0 +1,32 @@
+@import 'variables';
+
+.carrier-card-list{
+    max-width:1170px;
+    margin:0 auto;
+    padding:0 3rem;
+}
+
+.search-summary-section{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:2rem;
+    .search-summary{
+        font-size:2rem;
+        padding:2rem 0;
+        > span{
+            font-weight:600;
+        }
+    }
+    .sorting{
+        font-size:1.4rem;
+        select{
+            margin:0 0 0 1rem;
+            font-size:1.2rem;
+            padding:1rem 3rem 1rem 1rem;
+            color: $color-font-light;
+            border:1px solid $color-layout-border;
+            background-color:#fff;
+        }
+    }
+}

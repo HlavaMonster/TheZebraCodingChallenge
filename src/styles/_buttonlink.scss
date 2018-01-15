@@ -1,0 +1,33 @@
+@import 'variables';
+
+.btn{
+    display:inline-block;
+    padding:10px 30px;
+    font-size:1.6rem;
+    border-radius:2rem;
+    text-decoration:none;
+    color: $color-button-text;
+    background-image: $gradient-button-standard;
+    background-size: auto 200%;
+    background-position: 0 0%;
+    transition: background-position 0.2s;
+    &:hover{
+        background-position:0 50%;
+    }
+    .btn-icon{
+        margin-right:.5rem;
+    }
+    > span{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    svg{
+        height:2rem;
+        width:2rem;
+    }
+}
+
+.btn-primary{
+    background-image: $gradient-button-primary;
+}

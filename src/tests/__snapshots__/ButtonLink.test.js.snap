@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders button icon if supplied 1`] = `
+<a
+  className="btn"
+  href=""
+  target={undefined}
+>
+  <span>
+    <span
+      className="btn-icon"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": undefined,
+        }
+      }
+    />
+    <span>
+      Test Button
+    </span>
+  </span>
+</a>
+`;
+
+exports[`renders correct primary button type 1`] = `
+<a
+  className="btn btn-primary"
+  href=""
+  target={undefined}
+>
+  <span>
+    
+    <span>
+      Test Button
+    </span>
+  </span>
+</a>
+`;
+
+exports[`renders correct standard button type 1`] = `
+<a
+  className="btn"
+  href=""
+  target={undefined}
+>
+  <span>
+    
+    <span>
+      Test Button
+    </span>
+  </span>
+</a>
+`;
